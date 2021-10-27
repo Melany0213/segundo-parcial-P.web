@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mZQwdQWiGlwxmD+J2OearqeBlTawZuXKQosUrwhsWO/itFazj8sSzL2nqIeyYHAt9ez+oBIHhXWyzFblTkHmRw==",
+  "dgSpecHash": "blW1QzYxTGBRTRZplbb+4rnVcNCNkWNqQtDVZQDrByLnmUHVRn5dXWDtF2aH6jdzqLlm8CIXwnn5odUKuE4lcg==",
   "success": false,
-  "projectFilePath": "C:\\Users\\Mela\\Desktop\\P Web Parcial2\\Datos\\Datos.csproj",
+  "projectFilePath": "C:\\Users\\Mela\\Desktop\\P Web Parcial2\\Logica\\Logica.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mela\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],

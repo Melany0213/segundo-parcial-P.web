@@ -10,6 +10,34 @@
         "runtime": {
           "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {}
         }
+      },
+      "Datos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Entidades": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.11",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11"
+        },
+        "compile": {
+          "bin/placeholder/Datos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Datos.dll": {}
+        }
+      },
+      "Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entidades.dll": {}
+        }
       }
     }
   },
@@ -103,11 +131,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Datos/1.0.0": {
+      "type": "project",
+      "path": "../Datos/Datos.csproj",
+      "msbuildProject": "../Datos/Datos.csproj"
+    },
+    "Entidades/1.0.0": {
+      "type": "project",
+      "path": "../Entidades/Entidades.csproj",
+      "msbuildProject": "../Entidades/Entidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "System.ComponentModel.Annotations >= 5.0.0"
+      "Datos >= 1.0.0",
+      "Entidades >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -116,11 +155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mela\\Desktop\\P Web Parcial2\\Entidades\\Entidades.csproj",
-      "projectName": "Entidades",
-      "projectPath": "C:\\Users\\Mela\\Desktop\\P Web Parcial2\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\Mela\\Desktop\\P Web Parcial2\\Logica\\Logica.csproj",
+      "projectName": "Logica",
+      "projectPath": "C:\\Users\\Mela\\Desktop\\P Web Parcial2\\Logica\\Logica.csproj",
       "packagesPath": "C:\\Users\\Mela\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mela\\Desktop\\P Web Parcial2\\Entidades\\obj\\",
+      "outputPath": "C:\\Users\\Mela\\Desktop\\P Web Parcial2\\Logica\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mela\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -131,7 +170,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Mela\\Desktop\\P Web Parcial2\\Datos\\Datos.csproj": {
+              "projectPath": "C:\\Users\\Mela\\Desktop\\P Web Parcial2\\Datos\\Datos.csproj"
+            },
+            "C:\\Users\\Mela\\Desktop\\P Web Parcial2\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\Mela\\Desktop\\P Web Parcial2\\Entidades\\Entidades.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -143,12 +189,6 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
-        "dependencies": {
-          "System.ComponentModel.Annotations": {
-            "target": "Package",
-            "version": "[5.0.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -167,5 +207,25 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'Microsoft.EntityFrameworkCore (>= 5.0.11)' para 'net5.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'Microsoft.EntityFrameworkCore.SqlServer (>= 5.0.11)' para 'net5.0'.",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }

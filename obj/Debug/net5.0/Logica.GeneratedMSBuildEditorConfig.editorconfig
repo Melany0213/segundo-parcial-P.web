@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
-build_property.RootNamespace = Entidades
-build_property.ProjectDir = c:\Users\Mela\Desktop\P Web Parcial2\Entidades\
+build_property.RootNamespace = Logica
+build_property.ProjectDir = c:\Users\Mela\Desktop\P Web Parcial2\Logica\

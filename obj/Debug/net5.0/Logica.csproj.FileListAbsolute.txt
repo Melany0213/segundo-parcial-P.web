@@ -1,0 +1,16 @@
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\bin\Debug\net5.0\Logica.deps.json
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\bin\Debug\net5.0\Logica.dll
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\bin\Debug\net5.0\ref\Logica.dll
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\bin\Debug\net5.0\Logica.pdb
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\bin\Debug\net5.0\Datos.dll
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\bin\Debug\net5.0\Entidades.dll
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\bin\Debug\net5.0\Datos.pdb
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\bin\Debug\net5.0\Entidades.pdb
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\obj\Debug\net5.0\Logica.csproj.AssemblyReference.cache
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\obj\Debug\net5.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\obj\Debug\net5.0\Logica.AssemblyInfoInputs.cache
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\obj\Debug\net5.0\Logica.AssemblyInfo.cs
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\obj\Debug\net5.0\Logica.csproj.CoreCompileInputs.cache
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\obj\Debug\net5.0\Logica.dll
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\obj\Debug\net5.0\ref\Logica.dll
+C:\Users\Mela\Desktop\P Web Parcial2\Logica\obj\Debug\net5.0\Logica.pdb

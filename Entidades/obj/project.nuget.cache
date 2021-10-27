@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NK41CFci15JXJ51Lbsq5bmTmmPCl6JrNfo7CsOwsfqyUCpYxur6JDsBNgj9Z2Z24R20eS2VJn+QH/tU3mMfHeA==",
+  "dgSpecHash": "1VIvCSwt5nkQ8XUbKhKffwPWE7uKWkE1XsHqT8ZLbrG3w5vwewJZN4AuevyhvWtwKl9ggsj5CRE2F17XVoQ+qg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mela\\Desktop\\P Web Parcial2\\Entidades\\Entidades.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mela\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
